@@ -1,4 +1,4 @@
-name: selenium
+name: selenium-github-actions
 on: [push]
 jobs:
   selenium:
@@ -11,5 +11,5 @@ jobs:
           architecture: 'x64'
       - run: |
           pip install get-chrome-driver --upgrade
-          pip install -r HelloActions/requirements.txt
-          python HelloActions/main.py
+          pip install -r selenium/requirements.txt
+          python selenium/main.py
