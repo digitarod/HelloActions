@@ -1,4 +1,4 @@
-name: selenium-github-actions
+name: selenium
 on: [push]
 jobs:
   selenium:
